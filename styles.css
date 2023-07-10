@@ -68,14 +68,14 @@ sans-serif;
     font-size: 40px; */
 }
 
-.section2-title {
+.section-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
 }
 
-.section2-description {
+.section-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -128,4 +128,30 @@ sans-serif;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+}
+
+/* section 4 styles */
+.section4 {
+    margin-top: 128px;
+}
+
+.section4-conteiner {
+    display: flex;
+    max-width: 1922px;
+    max-height: 620px;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 0.05);
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer-image {
+    width: 318px;
+    height: 420px;
+    padding: 100px 0px;
 }
