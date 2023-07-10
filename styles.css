@@ -155,3 +155,18 @@ sans-serif;
     height: 420px;
     padding: 100px 0px;
 }
+
+/* section 5 style */
+.instagram-poster {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 48px;
+}
+
+.section5-conteiner {
+    max-width: 1920px;
+    max-height: 4867px;
+    margin: auto;
+    text-align: center;
+    margin-top: 128px;
+}
