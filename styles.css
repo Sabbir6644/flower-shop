@@ -1,0 +1,131 @@
+font-family: 'Lato',
+sans-serif;
+
+.section1 {
+
+    max-width: 1920px;
+    max-height: 850px;
+    margin: auto;
+
+}
+
+.section1-conteiner {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(229, 84, 115, 0.10);
+}
+
+.left-side {
+    padding-top: 190px;
+    padding-bottom: 145px;
+    height: 500px;
+    width: 700px;
+    align-items: center;
+}
+
+.section1-title {
+    font-size: 80px;
+    color: #272727;
+}
+
+.section1-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.btn {
+    background-color: #E55473;
+    color: #FFF;
+    padding: 20px 43px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.section1-img {
+    padding-top: 50px;
+    height: 800px;
+    width: 635px;
+}
+
+.section2 {
+    max-width: 1920px;
+    max-height: 4867px;
+    margin: auto;
+
+}
+
+.section2-conteiner {
+    background-color: #FFF;
+    padding-top: 170px;
+}
+
+.section2-heading {
+    /* color: #272727;
+    text-align: center;
+    font-size: 40px; */
+}
+
+.section2-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section2-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 594px;
+    margin: auto;
+}
+
+.section2-flower {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 48px;
+
+}
+
+.flower-tree {
+    width: 464px;
+    height: 538px;
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+
+}
+
+.tree1 {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.tree2 {
+    width: 370px;
+    height: 370px;
+    margin-top: 110px;
+    margin-left: 50px;
+}
+
+.tree3 {
+    width: 314px;
+    height: 471px;
+    margin-top: 65px;
+    margin-left: 50px;
+}
+
+.name-of-tree {
+    text-align: center;
+    text-decoration: underline;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
