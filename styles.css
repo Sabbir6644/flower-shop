@@ -59,7 +59,8 @@ sans-serif;
 
 .section2-conteiner {
     background-color: #FFF;
-    padding-top: 170px;
+    padding: 170px 240px;
+
 }
 
 .section2-heading {
@@ -91,7 +92,7 @@ sans-serif;
 
 }
 
-.flower-tree {
+.flower-tree1 {
     width: 464px;
     height: 538px;
     background-color: rgba(167, 33, 98, 0.15);
@@ -99,6 +100,23 @@ sans-serif;
     display: flex;
 
 }
+.flower-tree2 {
+    width: 464px;
+    height: 538px;
+    background-color: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+
+}
+.flower-tree3 {
+    width: 464px;
+    height: 538px;
+    background-color: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+
+}
+
 
 .tree1 {
     width: 310px;
@@ -149,7 +167,9 @@ sans-serif;
 .offer {
     text-align: center;
 }
-
+#offer-color{
+    color: #E55473;
+}
 .offer-image {
     width: 318px;
     height: 420px;
@@ -161,6 +181,7 @@ sans-serif;
     display: flex;
     justify-content: space-around;
     padding-top: 48px;
+    padding: 0px 240px;
 }
 
 .section5-conteiner {
@@ -169,4 +190,36 @@ sans-serif;
     margin: auto;
     text-align: center;
     margin-top: 128px;
+}
+
+/* section 6 styles */
+.section6-conteiner {
+    background-image: url('./image/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    max-height: 449px;
+    margin: auto;
+    margin-top: 148px;
+    padding: 122px 0px;
+    
+
+}
+
+.section6-item {
+    text-align: center;
+    
+}
+.input{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    
+}
+.input-email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
 }
