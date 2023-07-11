@@ -1,7 +1,6 @@
-font-family: 'Lato',
-sans-serif;
-
-.section1 {}
+body {
+    font-family: 'Lato', sans-serif;
+}
 
 .section1-conteiner {
     max-width: 1920px;
