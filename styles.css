@@ -236,6 +236,7 @@ sans-serif;
 .input-email {
     width: 700px;
     height: 64px;
+    padding-left: 20px;
     border-radius: 8px;
     background-color: #FFF;
     border: none;
