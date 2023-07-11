@@ -51,7 +51,7 @@ sans-serif;
     background-color: #FFF;
     padding: 170px 240px;
     max-width: 1440px;
-    max-height: 4000px;
+    max-height: 3800px;
     margin: auto;
 
 }
@@ -139,7 +139,7 @@ sans-serif;
 /* Section 3 styles */
 .section3-conteiner{
     background-color: #FFF;
-    padding: 170px 240px;
+    padding: 0px 240px 170px 240px;
     max-width: 1440px;
     max-height: 4000px;
     margin: auto;
@@ -156,9 +156,12 @@ sans-serif;
 .product2{
     margin-top: 60px;
 }
-.product3{
-    margin-top: 210px;
-    margin-left: -100px;
+.product1{
+    margin-top: 200px;
+    
+}
+.products-btn{
+    text-align: center;
 }
 /* section 4 styles */
 
