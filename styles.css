@@ -1,15 +1,12 @@
 font-family: 'Lato',
 sans-serif;
 
-.section1 {
+.section1 {}
 
+.section1-conteiner {
     max-width: 1920px;
     max-height: 850px;
     margin: auto;
-
-}
-
-.section1-conteiner {
     display: flex;
     justify-content: space-around;
     background-color: rgba(229, 84, 115, 0.10);
@@ -50,16 +47,12 @@ sans-serif;
     width: 635px;
 }
 
-.section2 {
-    max-width: 1920px;
-    max-height: 4867px;
-    margin: auto;
-
-}
-
 .section2-conteiner {
     background-color: #FFF;
     padding: 170px 240px;
+    max-width: 1440px;
+    max-height: 4000px;
+    margin: auto;
 
 }
 
@@ -100,6 +93,7 @@ sans-serif;
     display: flex;
 
 }
+
 .flower-tree2 {
     width: 464px;
     height: 538px;
@@ -108,6 +102,7 @@ sans-serif;
     display: flex;
 
 }
+
 .flower-tree3 {
     width: 464px;
     height: 538px;
@@ -149,9 +144,6 @@ sans-serif;
 }
 
 /* section 4 styles */
-.section4 {
-    margin-top: 128px;
-}
 
 .section4-conteiner {
     display: flex;
@@ -167,9 +159,11 @@ sans-serif;
 .offer {
     text-align: center;
 }
-#offer-color{
+
+.special-text-color {
     color: #E55473;
 }
+
 .offer-image {
     width: 318px;
     height: 420px;
@@ -185,6 +179,7 @@ sans-serif;
 }
 
 .section5-conteiner {
+    background-color: #FFF;
     max-width: 1920px;
     max-height: 4867px;
     margin: auto;
@@ -202,24 +197,63 @@ sans-serif;
     margin: auto;
     margin-top: 148px;
     padding: 122px 0px;
-    
+
 
 }
 
 .section6-item {
     text-align: center;
-    
+
 }
-.input{
+
+.input {
     display: flex;
     justify-content: center;
     gap: 16px;
-    
+
 }
+
 .input-email {
     width: 700px;
     height: 64px;
     border-radius: 8px;
     background-color: #FFF;
     border: none;
+}
+
+/* footer-conteiner style */
+footer {}
+
+.footer-conteiner {
+    max-width: 1922px;
+    max-height: 449px;
+    background-color: #111010;
+    color: white;
+    margin: auto;
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 128px 0px;
+}
+
+#footer-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#footer-description {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+
+}
+
+#copy-right {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
